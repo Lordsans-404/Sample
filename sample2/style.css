@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #D6D6D6;
+}
+
+
+/* O___________________________________________________________________O */
+
+.btn-jumbo {
+    margin-top: 80px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.jumbotron {
+    padding: 3rem 1.5rem;
+}
+
+.section-content {
+    border-top: 7px solid #eee;
+}
+
+.container-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-center{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.font-rubik-bold{
+    font-family: 'Rubik', sans-serif!important;
+    font-weight: bolder!important;
+}
+
+.section-title{
+    font-size: 33px;
+}
+
+.navbar {
+    padding: 0.75rem 1.8rem;
+}
+
+.text-decoration-none {
+    text-decoration: none!important;
+}
+
+.top-section{
+    padding: .75rem 1.25rem;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+
+.tombol-nav {
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+}
+
+.under-nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 78px;
+}
+
+.jumbotron-edit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    border-radius: 16px;
+    background-image:url('jumbotron.png');
+    border-style: solid;    
+    border-width: 3px;
+    background-repeat: no-repeat;
+    min-height: 190px;
+    background-size: cover;
+}
+
+.jumbotron-text {
+    min-width: 250px;
+    font-size: 1.5rem;
+    text-shadow: 0px 4px 5px rgba(0,0,0,0.6);
+}
+
+.flex-container{
+    max-width: 2440px;
+    margin: 0 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-items {
+    min-width: 120px;
+    max-width: 600px;
+    min-height: 230px;
+}
+
+.flex-items-2 {
+    width: 20%;
+}
+
+.flex-1{
+    margin-left: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: azure;
+}
+
+.flex-2{
+    max-width: 500px;
+}
+
+.jumbotron-img {
+    margin-left: 200px;
+    width: 55%;
+    min-height: 175px;
+    min-width: 165px;
+}
+
+.circle {
+    margin: auto!important;
+    width: 11rem;
+    height: 11rem;
+    min-width: 63px;
+    border-radius: 50%;
+    background-image: url(iconsatu.png);
+    border: 2px black solid;
+    background-size: cover;
+    background-position: center;
+}
+
+.circle-satu{
+    background-image: url(iconsatu.png);
+}
+.circle-dua{
+    background-image: url(icondua.png)!important;
+}
+
+.link-href {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 0 0.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease-in-out;
+}
+  
+.link-href::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    top: 100%;
+    left: 0;
+    background: #7176;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.link-href:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+@media (max-width:1000px ){
+    .circle{
+        width: 113px;
+        height: 113px;
+    }
+}
+
+@media (max-width:900px ){
+    .circle{
+        width: 103px;
+        height: 103px;
+    }
+
+}
+
+
+
+@media (max-width:800px ){
+    .circle{
+        width: 83px;
+        height: 83px;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .jumbotron-text{
+        min-width: 0;
+        padding-right: 0;
+    }
+
+    .btn-jumbo {
+        margin-top: 30px;
+    }
+
+    .under-nav{
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+    }
+
+    .flex-items {
+        min-height: 0;
+    }
+
+    .flex-1{
+        margin: 0;
+    }
+
+    .flex-2{
+        max-width: 200px;
+    }
+
+    .jumbotron-img{
+        padding: 0;
+        margin:0;
+    }
+    
+    .container-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .section-title{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:600px ){
+    .circle{
+        width: 73px;
+        height: 73px;
+    }
+}
+
+@media (max-width:400px ){
+    .circle{
+        width: 63px;
+        height: 63px;
+    }
+}
